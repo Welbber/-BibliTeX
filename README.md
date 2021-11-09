@@ -1,2 +1,6 @@
 # -BibliTeX
 Essa biblioteca permite que um texto seja transformado através de operações textuais específicas
+
+Reuso é um dos aspectos mais importantes na criação de códigos. Ao trabalhar com coleções, por exemplo, Java oferece a API de Collections. Ela é capaz de ordenar listas não importa a lógica de ordenação que você use, é capaz de achar o menor elemento (ou maior elemento) e até de ordenar listas que você construa de uma maneira bem particular. Outro exemplo de reuso está na biblioteca do JUnit. Essa biblioteca é capaz de executar qualquer teste desde que o mesmo tenha uma anotação como @Test.
+
+A interface é um mecanismo em java que permite fazer reuso de tipo de forma bastante eficiente, inclusive para permitir a extensão de um programa. Para demonstrar este aspecto, iremos construir uma biblioteca de transformação textual. Essa biblioteca permite que um texto seja transformado através de operações textuais específicas; que seja armazenado um histórico das transformações realizadas, incluindo os textos originais; que sejam coletadas algumas estatísticas sobre as transformações realizadas e ainda diferentes tipos de serviços de log. Um requisito essencial que você deve atender ao implementar a BibliTeX é a extensibilidade
